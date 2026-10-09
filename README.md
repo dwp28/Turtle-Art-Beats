@@ -7,19 +7,20 @@
 
 ## 📖 About the Project
 
-Welcome to **Turtle Art Beats**! This is a fun and creative Python project that uses the built-in `turtle` library to draw beautiful, animated graphics while playing background music using `pygame`. 
+Welcome to **Turtle Art Beats**! This is a fun and creative Python project that uses the built-in `turtle` library to draw beautiful, animated graphics while playing background music using `pygame`.
 
 Currently, the project features two main graphical scripts:
+
 1. **A Beating Heart:** An intricate mathematical drawing of a heart made of multiple overlapping hearts, complete with a custom signature.
-2. **Stitch:** A detailed, step-by-step coloring and drawing of the beloved character Stitch from Disney's *Lilo & Stitch*.
+2. **Stitch:** A detailed, step-by-step coloring and drawing of the beloved character Stitch from Disney's _Lilo & Stitch_.
 
 ## 🎨 Visual Previews
 
 Here is what the scripts draw in real-time!
 
 <p align="center">
-  <img src="images/corazon.png" alt="Heart Drawing Preview" width="400" />
-  <img src="images/stitch.png" alt="Stitch Drawing Preview" width="400" />
+  <img src="Images/corazon.png" alt="Heart Drawing Preview" width="400" />
+  <img src="Images/stitch.png" alt="Stitch Drawing Preview" width="400" />
 </p>
 
 ## 🛠️ Installation & Setup
@@ -27,12 +28,14 @@ Here is what the scripts draw in real-time!
 To run these scripts on your local machine, follow these steps:
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/Turtle-Art-Beats.git
 cd Turtle-Art-Beats
 ```
 
 ### 2. Install Dependencies
+
 The `turtle` and `math` libraries are built directly into Python, so you don't need to install them. However, we use `pygame` to handle the background music. You can install it easily using the provided `requirements.txt` file:
 
 ```bash
@@ -40,6 +43,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Run the Scripts
+
 Simply execute either of the Python files to watch the magic happen!
 
 ```bash
@@ -64,6 +68,7 @@ pygame.mixer.music.load("Music/He Mele No Lilo.mp3")
 # To this:
 pygame.mixer.music.load("Music/your_new_song.mp3")
 ```
+
 5. Save and run the script again to enjoy your custom soundtrack!
 
 ## 👨‍💻 Author & Contact
